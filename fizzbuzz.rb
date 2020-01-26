@@ -3,8 +3,11 @@
 def fizzbuzz(num)
   x = num.to_i
   dev3 = x % 3
+  dev5 = x % 5
   if dev3 == 0
     puts "fizz"
+  elsif dev5 == 0
+    puts "buzz"
 end
 end
 
