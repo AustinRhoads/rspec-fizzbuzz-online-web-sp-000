@@ -4,12 +4,13 @@ def fizzbuzz(num)
   x = num.to_i
   div3 = x % 3
   div5 = x % 5
-  if div3 == 0
-    puts "fizz"
+  if div3 == 0 && div5 == 0
+    puts "fizzbuzz"
+
   elsif div5 == 0
     puts "buzz"
-  elsif div3 == 0 && div5 == 0
-    puts "fizzbuzz"
+  elsif   div3 == 0
+      puts "fizz"
   else
     return nil
 end
