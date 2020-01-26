@@ -10,6 +10,8 @@ def fizzbuzz(num)
     puts "buzz"
   elsif div3 == 0 && div5 == 0
     puts "fizzbuzz"
+  else
+    return nil
 end
 end
 
