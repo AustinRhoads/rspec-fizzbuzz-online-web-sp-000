@@ -3,5 +3,3 @@
 def fizzbuzz(num)
   puts "fizz"
 end
-fizzbuzz(15)
-fizzbuzz(10)
