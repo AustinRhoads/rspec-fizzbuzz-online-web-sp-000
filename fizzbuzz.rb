@@ -3,3 +3,5 @@
 def fizzbuzz(num)
   puts "fizz"
 end
+
+fizzbuzz(15)
