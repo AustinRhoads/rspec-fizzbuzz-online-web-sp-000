@@ -16,4 +16,3 @@ end
 end
 
 fizzbuzz(15)
-fizzbuzz(10)
