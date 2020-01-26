@@ -5,7 +5,7 @@ def fizzbuzz(num)
   dev3 = x % 3
   if dev3 == 0
     puts "fizz"
-
+end
 end
 
 fizzbuzz(15)
