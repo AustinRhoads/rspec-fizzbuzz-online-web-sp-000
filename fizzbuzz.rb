@@ -15,5 +15,3 @@ def fizzbuzz(num)
     return nil
 end
 end
-
-
