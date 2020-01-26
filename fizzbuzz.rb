@@ -2,7 +2,8 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   x = num.to_i
-  puts x
+  dev3 = x % 3
+  puts dev3
 end
 
 fizzbuzz(15)
