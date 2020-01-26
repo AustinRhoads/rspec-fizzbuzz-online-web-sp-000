@@ -3,7 +3,7 @@
 def fizzbuzz(num)
   x = num.to_i
   dev3 = x % 3
-  if dev3 = 0
+  if dev3 == 0
     puts "fizz"
 
 end
