@@ -8,7 +8,7 @@ def fizzbuzz(num)
     puts "fizz"
   elsif div5 == 0
     puts "buzz"
-  elsif div3 == 0 && div5 == 0 
+  elsif div3 == 0 && div5 == 0
     puts "fizzbuzz"
 end
 end
