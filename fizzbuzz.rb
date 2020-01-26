@@ -8,7 +8,9 @@ def fizzbuzz(num)
     puts "fizz"
   elsif dev5 == 0
     puts "buzz"
+
 end
 end
 
 fizzbuzz(15)
+fizzbuzz(10)
