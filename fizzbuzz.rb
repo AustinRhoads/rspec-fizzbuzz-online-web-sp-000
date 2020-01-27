@@ -8,9 +8,9 @@ def fizzbuzz(num)
     return "FizzBuzz"
 
   elsif div5 == 0
-    puts "Buzz"
+    return "Buzz"
   elsif   div3 == 0
-      puts "Fizz"
+      return "Fizz"
   else
     return nil
 end
