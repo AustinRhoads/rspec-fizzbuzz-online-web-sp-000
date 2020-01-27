@@ -5,12 +5,12 @@ def fizzbuzz(num)
   div3 = x % 3
   div5 = x % 5
   if div3 == 0 && div5 == 0
-    puts "fizzbuzz"
+    puts "FizzBuzz"
 
   elsif div5 == 0
-    puts "buzz"
+    puts "Buzz"
   elsif   div3 == 0
-      puts "fizz"
+      puts "Fizz"
   else
     return nil
 end
